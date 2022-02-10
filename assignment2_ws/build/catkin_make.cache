@@ -1,0 +1,2 @@
+assignment2
+-DCATKIN_DEVEL_PREFIX=/home/sanskruti/assignment2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sanskruti/assignment2_ws/install -G Unix Makefiles
