@@ -14,10 +14,11 @@ Assignment 2 - Running the turtlebot in
 
 
 
-#How to run
+How to run     
+GIT clone repository :
+It has package assignment2 run the command: 
 
-    # GIT clone repository :
-    #It has package assignment2 run the command: 
+
     
     roslaunch assignment2 circle.launch
     roslaunch assignment2 squaredloop.launch
