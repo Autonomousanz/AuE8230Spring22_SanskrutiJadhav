@@ -1,10 +1,16 @@
 
 #Move the Turtlebot3 in a 3D Simulation environment offered by Gazebo:
 
-#Run roslaunch assignment_3 part1.launch to make turtlebot move in gazebo environment :
+##This simulation has package dependency since the launch files and world files are placed in the Turtlebot3_gazebo package. This package needs to be placed in the workspace.
 
-#Use code:=circle at end of roslaunch command for moving turtlebot in circle of radius 1 unit and 0.5 linear speed
+Make turtlebot move in square/circle gazebo environment :
 
-#Use code:=square at end of roslaunch command for moving turtlebot in square
+``roslaunch assignment3 task1.launch code:=circle/square``
 
-#Run roslaunch assignment_3 part2.launch to implement emergency braking
+Use code:=circle at end of roslaunch command for moving turtlebot in circle of radius 1 unit and 0.5 linear speed
+
+Use code:=square at end of roslaunch command for moving turtlebot in square
+
+To implement emergency braking use following command in Gazebo environment:
+
+``roslaunch assignment3 task2.launch``
