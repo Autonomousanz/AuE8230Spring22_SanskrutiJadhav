@@ -1,7 +1,0 @@
-<launch>
-	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
-	<arg name="initial_pose_x" value="5.000000"/> 
-	<arg name="initial_pose_y" value="5.000000"/> 
-	<node pkg="assignment2" type="Improved_squaredclosedloop.py" name="square_closeloop">	
-     </node>	
-</launch>
