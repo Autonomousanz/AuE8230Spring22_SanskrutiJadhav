@@ -21,7 +21,9 @@ It has package assignment2 run the command:
 
     
     roslaunch assignment2 circle.launch
+    
     roslaunch assignment2 squaredloop.launch
+    
     roslaunch assignment2 squaredclosedloop.launch
 
 
