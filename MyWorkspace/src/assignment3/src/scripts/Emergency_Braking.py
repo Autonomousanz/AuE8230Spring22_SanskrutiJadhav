@@ -32,7 +32,7 @@ class Obstacle():
               print(distances)
 
        def listener(self):
-              rospy.init_node('robot_move', anonymous=True)
+              rospy.init_node('turtle_bot', anonymous=True)
               sub = rospy.Subscriber('/scan', LaserScan, self.callback)
               self.move()
               rospy.spin()
