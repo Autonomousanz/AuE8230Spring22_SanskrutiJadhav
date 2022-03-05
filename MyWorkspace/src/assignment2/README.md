@@ -11,3 +11,15 @@ Assignment 2 - Running the turtlebot in
 
 3. Square closed loop feedback and control with desired postion Assignment 3 - Running the turtlebot in Gazebo environment
 ![square](https://github.com/Autonomousanz/AuE8230Spring22_SanskrutiJadhav/blob/main/MyWorkspace/src/assignment2/src/videos/Screenshot%20from%202022-02-10%2011-45-18.png)
+
+
+
+#How to run
+
+    GIT clone repository :
+    It has package assignment2
+    run the command: roslaunch assignment2 circle.launch
+    run the command:roslaunch assignment2 squaredloop.launch
+    run the command:roslaunch assignment2 squaredclosedloop.launch
+
+
